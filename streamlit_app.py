@@ -17,7 +17,7 @@ st.subheader("""Categorical Missing Values Imputation""")
 st.write("""The categorical missing values are imputed using the most common value of the column.""")
 st.subheader("""Data Visualization""")
 st.subheader("""Application table""")
-application = pd.read_csv("application_train.csv")
+application = pd.read_csv("https://media.githubusercontent.com/media/yybrother989/HomeCreditDefaultRisk/main/application_train.csv")
 st.write(application.head())
 
 
